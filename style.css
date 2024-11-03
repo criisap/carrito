@@ -1,0 +1,57 @@
+body {
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table {
+    border: 1px solid rgba(176, 169, 169, 0.573);
+}
+.tabla1{
+    width: 65%; 
+    height: 20rem;
+    border-collapse: collapse;
+}
+.tabla1 th {
+    border-bottom: 2px solid #333;
+    padding: 8px; 
+}
+.tabla1 td {
+    text-align: center;
+    width: 25%;
+}
+.tabla1 tr{
+    border-bottom: 1px solid black;
+}
+.contenedor-totales {
+    background-color: rgb(217, 217, 217);
+}
+#tabla2{
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(217, 217, 217);
+    border-bottom: none;
+}
+#tabla2 th{
+    padding: 8px; 
+    width: 8rem;
+    
+}
+#tabla2 td{
+    text-align: center;
+}
+.contenedor {
+    display: flex;
+    gap: 10px;
+}
+
+#productosDisponibles > tr > td > span{
+    padding-inline: 0.3rem;
+    width: 1rem;
+    display: inline-block;  
+    width: 100px;           
+    padding-inline: 0.3rem; 
+}
+
+#precioTotal {
+    display: flex;
+    justify-content: end;
+}
